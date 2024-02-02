@@ -42,13 +42,13 @@ const Navbar = () => {
           <div class="as_menu">
             <ul>
               <li>
-                <a href="X">home</a>
+                <a href="/">home</a>
               </li>
               <li>
-                <a href="about.html">about us</a>
+                <a href="/about">about us</a>
               </li>
               <li>
-                <a href="javascript:;">pages</a>
+                <a href="/pages">pages</a>
                 {/* <ul class="as_submenu">
                     <li>
                       <a href="service.html">service</a>
@@ -68,7 +68,7 @@ const Navbar = () => {
                   </ul> */}
               </li>
               <li>
-                <a href="X;">shop</a>
+                <a href="/shop">shop</a>
                 {/* <ul class="as_submenu">
                     <li>
                       <a href="shop.html">Shop</a>
@@ -79,7 +79,7 @@ const Navbar = () => {
                   </ul> */}
               </li>
               <li>
-                <a href="javascript:;">blog</a>
+                <a href="/blog">blog</a>
                 {/* <ul class="as_submenu">
                     <li>
                       <a href="blog.html">blog</a>
@@ -90,7 +90,7 @@ const Navbar = () => {
                   </ul> */}
               </li>
               <li>
-                <a href="contact.html">contact</a>
+                <a href="/contact">contact</a>
               </li>
 
               <li>

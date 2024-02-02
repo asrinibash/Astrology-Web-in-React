@@ -1,0 +1,81 @@
+.whychoseus {
+  background-image: url("../../assets/bg5.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 90%;
+    padding-top: 3vh;
+
+    h1 {
+      font-family: var(--font-base);
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #fff;
+    }
+    span img {
+      width: 15vw;
+      height: fit-content;
+      margin-top: 3vh;
+    }
+    p {
+      color: #fff;
+    }
+
+    .pic_list {
+      width: 100%;
+      height: 60%;
+      display: flex;
+      gap: 3%;
+      padding: 2%;
+
+      .card {
+        width: 18%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+
+        span {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            margin-top: 10%;
+            position: absolute;
+            width: 20%;
+            height: 20%;
+          }
+          h1 {
+            margin-top: 10.5%;
+            margin-left: 0.8%;
+            font-size: 2rem;
+            position: absolute;
+          }
+        }
+        h5 {
+          margin-top: 60%;
+          text-align: center;
+          color: #fff;
+          font-family: var(--font-base);
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
