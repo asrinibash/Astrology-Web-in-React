@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+:root {
+  --font-base: "Philosopher", sans-serif;
+  --primary-color: #797979;
+  --secondary-color: #f4a636;
+  --dark-color1: #111111;
+  --dark-color2: #17384e;
+  --white-color: #ffffff;
+  --transition: 0.4s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
