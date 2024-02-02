@@ -1,0 +1,126 @@
+.footer {
+  background-image: url("../../assets/bg8.jpg");
+
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+
+  .container {
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgb(0, 0, 0) 100%); */
+    opacity: 0.8;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 6% 2%;
+
+    .sign_upper {
+      height: 20%;
+      width: 90%;
+      display: flex;
+      align-items: center;
+
+      h1 {
+        font-family: var(--font-base);
+        font-weight: 600;
+        color: #fff;
+        font-size: 2.3rem;
+        width: 30%;
+        height: fit-content;
+      }
+      .dropdown_list {
+        margin-left: 7%;
+        height: 10vh;
+        width: 55vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        div {
+          height: 7vh;
+          width: 12vw;
+          border-radius: 15px;
+          display: flex;
+          align-items: center;
+          padding-left: 2%;
+          cursor: pointer;
+          background-color: #fff;
+        }
+        #btn {
+          background-color: var(--secondary-color);
+          color: #fff;
+          padding-left: 0%;
+          margin-left: 5%;
+          justify-content: center;
+          &:hover{
+            transition: 0.3s;
+            background-color: rgba(255, 166, 0, 0.808);
+          }
+        }
+      }
+    }
+    hr{
+        width: 90%;
+        opacity: 0.5;
+    }
+    h3{
+      font-size: 1rem;
+      color: #fff;
+      font-weight: 400;
+      margin-top: 1%;
+    }
+
+    .info_low{
+        margin-top: 5%;
+        /* background-color: #fff; */
+        height: 60%;
+        width: 90%;
+        display: flex;
+        padding: 0;
+
+        .card{
+            width: 25%;
+            height: 100%;
+
+          .as_footer_widget{
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: center;
+            gap: 10px;
+            color: #fff;
+            
+            h3{
+              font-family: var(--font-base);
+              font-weight: 400;
+              font-size: 1.4rem;
+            }
+            a{
+              text-decoration: none;
+              color: #fff;
+              font-size: 0.95rem;
+              &:hover{
+                transition: 0.3s;
+                color: var(--secondary-color);
+              }
+            }
+            input{
+              height: 45px;
+              width: 95%;
+              background-color: #ffffff;
+              border: 1px solid rgb(121 121 121 / 20%);
+              outline: none;
+              box-shadow: none !important;
+              color: var(--primary-color);
+              padding: 0 28px;
+              border-radius: 45px;
+            }
+          } 
+        }
+    }
+
+  }
+}
