@@ -17,7 +17,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    padding-top: 3vh;
+    padding-top: 3vw;
 
     h1 {
       font-family: var(--font-base);
@@ -34,14 +34,14 @@
     .card_list {
       display: flex;
       flex-wrap: wrap;
-      height: 70vh;
+      height: 30vw;
       width: 100%;
-      margin-top: 5vh;
+      margin-top: 1vh;
       padding: 2% 6%;
       gap: 10px;
       .card {
-        height: 12vw;
-        width: 12.1vw;
+        height: 12.5vw;
+        width: 12vw;
         padding: 1vw;
         margin: 10px;
         border-radius: 8px;
@@ -70,13 +70,13 @@
         }
         h2 {
           font-family: var(--font-base);
-          font-size: 1.3rem;
+          font-size: 1.7vw;
           color: #000;
           font-weight: 500;
         }
         h5 {
           font-weight: 400;
-          font-size: 0.9rem;
+          font-size: 1.3vw;
         }
 
         &:hover {
@@ -89,5 +89,126 @@
         }
       }
     }
+  }
+}
+
+/* Common styles for all screen sizes */
+.Horoscope {
+  background-image: url("../../assets/bg3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 3vw;
+}
+
+h1 {
+  font-family: var(--font-base);
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #000;
+}
+
+span img {
+  width: 80%; 
+  max-width: 15vw;
+  height: auto;
+  margin-top: 3vh;
+}
+
+.card_list {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  margin-top: 1vh;
+  padding: 2% 3%;
+  gap: 10px;
+
+  .card {
+    height: auto;
+    width: 100%; 
+    padding: 2vw; 
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #4a363631;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: -2px 0px 15px 0px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+
+    #img_cov {
+      height: 50%;
+      width: 50%;
+      background-color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: -2px 0px 15px 0px rgba(0, 0, 0, 0.06);
+      border-radius: 100%;
+      img {
+        height: 40%;
+        width: 40%;
+      }
+    }
+    h2 {
+      font-family: var(--font-base);
+      font-size: 1.7vw;
+      color: #000;
+      font-weight: 500;
+    }
+    h5 {
+      font-weight: 400;
+      font-size: 1.3vw;
+    }
+
+    &:hover {
+      background-color: var(--secondary-color);
+      color: #fff;
+      h2 {
+        color: #fff;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  span img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card_list {
+    padding: 2% 5%;
+    height: 100vh;
+  }
+
+  .card {
+    width: 100%;
+    margin: 5px 0;
+    padding: 2vw;
   }
 }

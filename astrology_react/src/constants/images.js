@@ -26,6 +26,7 @@ import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 import choose from "../assets/choose.svg";
 import logo_white from "../assets/logo_white.svg";
+import menu from "../assets/menu.png";
 
 
 export default {
@@ -56,5 +57,6 @@ export default {
   icon1,
   icon2,
   choose,
-  logo_white
+  logo_white,
+  menu
 };

@@ -1,18 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Header from "../Components/Header/Header";
+import About from "../Components/About/About";
+import Horoscope from "../Components/HoroScope/Horoscope";
+import Ourservice from "../Components/OurService/Ourservice";
+import WhyChoseUs from "../Components/WhyChoseUs/WhyChoseUs";
+import Feedback from "../Components/FeedbackClient/Feedback";
+import Footer from "../Components/Footer/Footer";
 
-const Components = () => {
+const Pages = () => {
   return (
-    <div>
-      <Link to="/">{<Header />}</Link>
-      <Link to="/about">{<About />}</Link>
-      <Link to="/pages">{<Horoscope />}</Link>
-      <Link to="/shop">{<Ourservice />}</Link>
-      <Link to="/blog">{<WhyChoseUs />}</Link>
-      <Link to="/">{<Feedback />}</Link>
-      <Link to="/contact">{<Footer />}</Link>
-    </div>
+    <Routes>
+      <Route path="/" element={<Header />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/pages" element={<Horoscope />}></Route>
+      <Route path="/shop" element={<Ourservice />}></Route>
+      <Route path="/blog" element={<WhyChoseUs />}></Route>
+      <Route path="/" element={<Feedback />}></Route>
+      <Route path="/contact" element={<Footer />}></Route>
+    </Routes>
   );
 };
 
-export default MyComponent;
+export default Pages;

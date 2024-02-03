@@ -17,11 +17,11 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  padding-top: 3vh;
+  padding-top: 2vw;
 
   h1 {
     font-family: var(--font-base);
-    font-size: 2.5rem;
+    font-size: 4vw;
     font-weight: 500;
     color: #000;
   }
@@ -69,7 +69,7 @@
   flex-direction: column;
   h1{
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 4vw;
   }
   p {
     margin-top: 2%;
@@ -80,7 +80,7 @@
 
 .con_exp {
   width: 80%;
-  height: 15vh;
+  height: 10vw;
   margin-top: 1vw;
   margin-left: 3%;
   display: flex;
@@ -91,19 +91,19 @@
     border: 1px solid #00000068;
     border-radius: 50%;
     width: 6vw;
-    height: 13vh;
+    height: 6vw;
     display: flex;
     justify-content: center;
     img {
       width: 3vw;
-      height: 6vh;
+      height: 3vw;
     }
   }
   #thirty {
     margin-left: 2vw;
     font-family: var(--font-base);
     color: var(--secondary-color);
-    font-size: 3rem;
+    font-size: 5vw;
   }
   #exp_con{
     margin-left: 0.5vw;
@@ -125,10 +125,10 @@
   margin-top: 1rem;
   margin-left: 1vw;
   height: 3.5vw;
-  width: 25vh;
+  width: 20vw;
   color: #fff;
   border-radius: 30px;
-  font-size: 0.9rem;
+  font-size: 1.5vw;
   font-weight: 300;
   background-color: var(--secondary-color);
   display: flex;
@@ -139,4 +139,11 @@
       background-color: red;
   }
 }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .about .container h1 {
+    font-size: 2rem;
+  }
 }

@@ -7,6 +7,7 @@ import Ourservice from "./Components/OurService/Ourservice";
 import WhyChoseUs from "./Components/WhyChoseUs/WhyChoseUs";
 import Feedback from "./Components/FeedbackClient/Feedback";
 import Footer from "./Components/Footer/Footer";
+import Pages from "./Routers/Pages";
 
 function App() {
   return (

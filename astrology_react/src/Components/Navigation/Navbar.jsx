@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { images } from "../../constants";
+import 'remixicon/fonts/remixicon.css';
 
 const Navbar = () => {
   return (
@@ -105,6 +106,9 @@ const Navbar = () => {
                   {/* <span class="as_cartnumber">02</span> */}
                 </span>
               </li>
+              {/* <li id="menu">
+              <i class="ri-menu-line"></i>
+              </li> */}
             </ul>
           </div>
         </div>
