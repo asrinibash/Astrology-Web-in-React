@@ -25,7 +25,7 @@
   color: #fff;
   gap: 10px;
   h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: var(--font-base);
     font-weight: 400;
   }
@@ -39,26 +39,41 @@
   p {
     margin-top: 20px;
     width: 90%;
+    font-size: 0.9rem;
   }
-}
-.left_content_btn {
-  display: flex;
-  width: 20vw;
-
-  .app__flex {
-    height: 50px;
-    width: 50px;
-    background-color: rgba(250, 235, 215, 0.404);
-    margin-right: 20px;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 1.5rem;
+  #Appointment{
+    width: 10vw;
+    height: 3vw;
     display: flex;
+    margin-left: 2.5%;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+  }
+  div {
+    display: flex;
+    width: 12vw;
+    margin-top: 2%;
+    height: 4vw;
+    justify-content: space-evenly;
+  button{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding: 7px;
+    width: 3.4vw;
+    height: 3.5vw;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    background-color: #88848461;
+   border: none;
+   color: #fff;
   }
 }
+}
+
 
 .right_head {
   position: relative;
